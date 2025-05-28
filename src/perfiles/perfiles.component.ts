@@ -12,5 +12,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PerfilesComponent {
-    
+    constructor(){
+      console.log('Kimrito');
+      
+    }
  }
