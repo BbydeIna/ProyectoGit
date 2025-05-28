@@ -1,8 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-productos',
-  imports: [],
+  imports: [ CommonModule],
   templateUrl: './Productos.component.html',
   styles: `
     :host {
