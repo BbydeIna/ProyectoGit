@@ -6,4 +6,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   templateUrl: './crear-usuario.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CrearUsuarioComponent { }
+export class CrearUsuarioComponent { 
+  constructor() {
+    console.log('CrearUsuarioComponent initialized');
+  }
+}
