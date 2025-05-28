@@ -1,8 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-camrrito',
-  imports: [],
+  imports: [
+    CommonModule
+  ],
   templateUrl: './camrrito.component.html',
   styles: `
     :host {
